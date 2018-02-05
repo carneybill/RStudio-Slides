@@ -1,0 +1,146 @@
+---
+title: "5 Minutes of Marketing"
+resource_files:
+- images/Connect_Dashboard.png
+- images/Empowered_Analysts.png
+- images/Package_Mosaic.png
+- images/RStudio_Cloud.png
+- images/Typical_Setup.png
+- images/Shiny_Apps.png
+subtitle: Roger Oberg
+output:
+  xaringan::moon_reader:
+    css: rstudio.css
+    nature:
+      countIncrementalSlides: yes
+      highlightLines: yes
+      highlightStyle: github
+      ratio: '16:9'
+    seal: yes
+---
+
+```{r setup, include=FALSE}
+#Shortcuts
+#c: Create a clone presentation on a new window
+#p: Toggle PresenterMode
+#f: Toggle Fullscreen
+
+options(htmltools.dir.version = FALSE)
+library(ggplot2)
+library(dplyr)
+library(knitr)
+library(kableExtra)
+
+thm <- theme_bw() + 
+  theme(
+    panel.background = element_rect(fill = "transparent", colour = NA), 
+    plot.background = element_rect(fill = "transparent", colour = NA),
+    legend.background = element_rect(fill = "transparent", colour = NA),
+    legend.key = element_rect(fill = "transparent", colour = NA)
+  )
+theme_set(thm)
+```
+
+class: class: dark-green, middle
+
+*The primary mission of RStudio is to build a sustainable open-source business that creates software for data science and statistical computing.* 
+
+*Our open source projects are supported by our commercial products that help teams of R users work together effectively, share computing resources, and publish their results to decision makers within the organization.*
+
+???
+This is a kinda cool slide to start with
+
+---
+class: rstudio-slide, left
+
+# Agenda
+
+.huge[
+1. What does Marketing do?
+2. Who does it?
+3. What’s important in 2018?
+]
+
+.right-column[![](https://www.companyregistrationinsingapore.com.sg/wp-content/uploads/2015/10/Depositphotos_53776311_l-2015.jpg)]
+
+---
+class: rstudio-slide, left
+
+# High Leverage Strategy Recap
+
+.large[
+- Build free and open source R tools that get rave reviews from end users and create self-sustaining support community (displaces traditional enterprise software sales, outbound marketing & support expenses.)
+- Create commercial upgrades and complementary products with compelling value
+- Price appropriate to incremental value and relative to entrenched analytic tools.
+- Build 3rd party training & consulting ecosystem (stay focused on software)
+Optimize for inbound go-to-market with mix of direct sales (new and expand renewals), OEM / VAR, and referral partners and agents.
+]
+
+---
+class: rstudio-slide, left 
+
+# What does Marketing do?
+
+.large[
+- Product - “Whole” products (McKenna, Moore)
+- <highlight>Position - who, what, why, how</highlight>
+- <highlight>Price - incremental value-based</highlight>
+- <highlight>Promote - thoughtfully</highlight>
+- <highlight>Package - bundles and “solutions”</highlight>
+- Place - Direct and Indirect
+]
+.pic-right[![]()]
+
+---
+class: rstudio-slide, left 
+
+# What does Marketing do?
+
+.large[
+- Product 
+- Position 
+- Price 
+- <highlight>Promote<highlight>
+- Package 
+- Place 
+]
+
+---
+
+# Who does what?
+
+.large[
+- Robert Bethell - Campaigns
+- Bill Carney - Programs
+- Anne Carome - Events
+- Curtis Kephart - Community
+- Roger Oberg - Strategy
+- Joseph Rickert - Ambassador
+- Greg Swinehart - Website(s)
+- Dave Hurst - Honorary Member (Bus Dev)
+]
+ 
+---
+class: rstudio-slide, left 
+
+# What’s Important in 2018?
+.large[
+- 4,500 QPLs / 700 Opps / 470 New Orders
+- Launches (R & TF, RPM, rstudio.cloud, RDP)
+- Conferences (rstudio::conf, Gartner…)
+- Enterprise pricing and packaging
+- Life Sciences and Financial Services programs
+- Community design, growth, and engagement
+- Resellers (Instant, Standard, Certified)
+- Website Effectiveness
+- Ramping up Video
+]
+
+---
+
+class: class: dark-gray, middle
+
+.huge[
+Discussion 
+]
+

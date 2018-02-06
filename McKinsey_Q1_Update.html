@@ -1,45 +1,21 @@
----
-title: "RStudio Update Q1.2018"
-resource_files:
-- images/Connect_Dashboard.png
-- images/Empowered_Analysts.png
-- images/Package_Mosaic.png
-- images/RStudio_Cloud.png
-- images/Typical_Setup.png
-- images/Shiny_Apps.png
-subtitle: Dave Hurst, Tareef Kawaf, Nathan Stephens
-output:
-  xaringan::moon_reader:
-    css: rstudio.css
-    nature:
-      countIncrementalSlides: yes
-      highlightLines: yes
-      highlightStyle: github
-      ratio: '16:9'
-    seal: yes
+<!DOCTYPE html>
+<html>
+  <head>
+    <title>RStudio Update Q1.2018</title>
+    <meta charset="utf-8">
+    <link rel="stylesheet" href="rstudio.css" type="text/css" />
+  </head>
+  <body>
+    <textarea id="source">
+class: center, middle, inverse, title-slide
+
+# RStudio Update Q1.2018
+## Dave Hurst, Tareef Kawaf, Nathan Stephens
+
 ---
 
-```{r setup, include=FALSE}
-#Shortcuts
-#c: Create a clone presentation on a new window
-#p: Toggle PresenterMode
-#f: Toggle Fullscreen
 
-options(htmltools.dir.version = FALSE)
-library(ggplot2)
-library(dplyr)
-library(knitr)
-library(kableExtra)
 
-thm <- theme_bw() + 
-  theme(
-    panel.background = element_rect(fill = "transparent", colour = NA), 
-    plot.background = element_rect(fill = "transparent", colour = NA),
-    legend.background = element_rect(fill = "transparent", colour = NA),
-    legend.key = element_rect(fill = "transparent", colour = NA)
-  )
-theme_set(thm)
-```
 
 class: class: dark-green, middle
 
@@ -139,17 +115,52 @@ class: rstudio-slide, left
 
 # Multiple Learning Paths
 
-```{r, echo = FALSE}
-learn_path <- data.frame(
-  Learn = c("tidyverse.org", "shiny.rstudio.com", "Learnr tutorials", "rstudio.cloud", "rstudio::conf", "community.rstudio.com", "blogs"),
-  Integrate = c("sparklyr", "db.rstudio.com", "Deploy R based REST APIs", "Tensorflow ", "Keras", " ", " "),
-  Operate = c("RStudio Connect", "RStudio Server Pro", "Operationalizing Shiny", "AWS Marketplace", "RStudio Package Manager", "Google Cloud Launcher", " ")
-)
-
-kable(learn_path, "html") %>%
-kable_styling() %>%
-row_spec(0, bold = T, color = "white", background = "#4287c7")
-```
+&lt;table class="table" style="margin-left: auto; margin-right: auto;"&gt;
+ &lt;thead&gt;
+  &lt;tr&gt;
+   &lt;th style="text-align:left;font-weight: bold;color: white;background-color: #4287c7;"&gt; Learn &lt;/th&gt;
+   &lt;th style="text-align:left;font-weight: bold;color: white;background-color: #4287c7;"&gt; Integrate &lt;/th&gt;
+   &lt;th style="text-align:left;font-weight: bold;color: white;background-color: #4287c7;"&gt; Operate &lt;/th&gt;
+  &lt;/tr&gt;
+ &lt;/thead&gt;
+&lt;tbody&gt;
+  &lt;tr&gt;
+   &lt;td style="text-align:left;"&gt; tidyverse.org &lt;/td&gt;
+   &lt;td style="text-align:left;"&gt; sparklyr &lt;/td&gt;
+   &lt;td style="text-align:left;"&gt; RStudio Connect &lt;/td&gt;
+  &lt;/tr&gt;
+  &lt;tr&gt;
+   &lt;td style="text-align:left;"&gt; shiny.rstudio.com &lt;/td&gt;
+   &lt;td style="text-align:left;"&gt; db.rstudio.com &lt;/td&gt;
+   &lt;td style="text-align:left;"&gt; RStudio Server Pro &lt;/td&gt;
+  &lt;/tr&gt;
+  &lt;tr&gt;
+   &lt;td style="text-align:left;"&gt; Learnr tutorials &lt;/td&gt;
+   &lt;td style="text-align:left;"&gt; Deploy R based REST APIs &lt;/td&gt;
+   &lt;td style="text-align:left;"&gt; Operationalizing Shiny &lt;/td&gt;
+  &lt;/tr&gt;
+  &lt;tr&gt;
+   &lt;td style="text-align:left;"&gt; rstudio.cloud &lt;/td&gt;
+   &lt;td style="text-align:left;"&gt; Tensorflow &lt;/td&gt;
+   &lt;td style="text-align:left;"&gt; AWS Marketplace &lt;/td&gt;
+  &lt;/tr&gt;
+  &lt;tr&gt;
+   &lt;td style="text-align:left;"&gt; rstudio::conf &lt;/td&gt;
+   &lt;td style="text-align:left;"&gt; Keras &lt;/td&gt;
+   &lt;td style="text-align:left;"&gt; RStudio Package Manager &lt;/td&gt;
+  &lt;/tr&gt;
+  &lt;tr&gt;
+   &lt;td style="text-align:left;"&gt; community.rstudio.com &lt;/td&gt;
+   &lt;td style="text-align:left;"&gt;  &lt;/td&gt;
+   &lt;td style="text-align:left;"&gt; Google Cloud Launcher &lt;/td&gt;
+  &lt;/tr&gt;
+  &lt;tr&gt;
+   &lt;td style="text-align:left;"&gt; blogs &lt;/td&gt;
+   &lt;td style="text-align:left;"&gt;  &lt;/td&gt;
+   &lt;td style="text-align:left;"&gt;  &lt;/td&gt;
+  &lt;/tr&gt;
+&lt;/tbody&gt;
+&lt;/table&gt;
 
 ---
 class: rstudio-slide, left 
@@ -173,7 +184,7 @@ class: rstudio-slide, left
 
 # Download Links
 
-### Open Source & Free Products
+### Open Source &amp; Free Products
 - Desktop: https://www.rstudio.com/products/rstudio/download/
 - RStudio Server: https://www.rstudio.com/products/rstudio/download-server/
 - Shiny Server: https://www.rstudio.com/products/shiny/download-server/
@@ -201,3 +212,34 @@ class: rstudio-slide, left
 - YouTube - [rstd.io/youtube](http://rstd.io/youtube)
 - Facebook - [rstd.io/facebook](http://rstd.io/facebook)
 ]
+    </textarea>
+<script src="https://remarkjs.com/downloads/remark-latest.min.js"></script>
+<script>var slideshow = remark.create({
+"countIncrementalSlides": true,
+"highlightLines": true,
+"highlightStyle": "github",
+"ratio": "16:9"
+});
+if (window.HTMLWidgets) slideshow.on('afterShowSlide', function (slide) {window.dispatchEvent(new Event('resize'));});
+(function() {var d = document, s = d.createElement("style"), r = d.querySelector(".remark-slide-scaler"); if (!r) return; s.type = "text/css"; s.innerHTML = "@page {size: " + r.style.width + " " + r.style.height +"; }"; d.head.appendChild(s);})();</script>
+
+<script type="text/x-mathjax-config">
+MathJax.Hub.Config({
+  tex2jax: {
+    skipTags: ['script', 'noscript', 'style', 'textarea', 'pre']
+  }
+});
+</script>
+<!-- dynamically load mathjax for compatibility with self-contained -->
+<script>
+(function () {
+  var script = document.createElement('script');
+  script.type = 'text/javascript';
+  script.src  = 'https://cdn.bootcss.com/mathjax/2.7.1/MathJax.js?config=TeX-MML-AM_CHTML';
+  if (location.protocol !== 'file:' && /^https?:/.test(script.src))
+    script.src  = script.src.replace(/^https?:/, '');
+  document.getElementsByTagName('head')[0].appendChild(script);
+})();
+</script>
+  </body>
+</html>

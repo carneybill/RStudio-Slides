@@ -76,7 +76,7 @@ highlight {
 }
 .large { font-size: 130% 
 }
-.small { font-size: 70% 
+.small { font-size: 60% 
 }
 .tiny {font-size: 40% 
 }
@@ -94,8 +94,8 @@ highlight {
 .dark-gray {
   background-color: #585858;
   color: #fff;
-  margin-right: 600px;
-  font-size: 65px;
+  margin-right: 300px;
+  font-size: 250px;
 }
 
 .dark-gray h2, .dark-gray h1 {
@@ -118,7 +118,7 @@ highlight {
   padding-top: 1em;
 }
 .pic-right {
-  float: center;
+  float: right;
   padding: 20px;
   width: 20%;
 }

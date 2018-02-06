@@ -1,5 +1,5 @@
 ---
-title: "RStudio Update Q1.2018"
+title: "Webinar Name"
 resource_files:
 - images/Connect_Dashboard.png
 - images/Empowered_Analysts.png
@@ -7,7 +7,7 @@ resource_files:
 - images/RStudio_Cloud.png
 - images/Typical_Setup.png
 - images/Shiny_Apps.png
-subtitle: Dave Hurst, Tareef Kawaf, Nathan Stephens
+subtitle: Presented by
 output:
   xaringan::moon_reader:
     css: rstudio.css
@@ -53,22 +53,30 @@ This is a kinda cool slide to start with
 ---
 class: rstudio-slide, left
 
-# Agenda
+# Lets connect in person!
 
-.huge[
-1. What we have invested in since our last visit
-2. What is interesting or relevant for your work?
-3. Where are we going next?]
+.large[
+- CSP 2018, February 15th through February 17th, Portland, OR USA @Marriott Portland Downtown Waterfront
+- Gartner Data & Analytics Summit, March 5th through March 8th, Grapevine, TX @Gaylord Texan Hotel
+- Gartner Data & Analytics Summit, March 19th through March 21st, London, UK @Intercontinental London
+- Analytics & Data Summit, March 20th through March 22nd, Redwood Shores, CA USA @Oracle Conference Center
+- Big Data World, March 21st through March 22nd, London, UK @Oracle ExCel London
+- ENAR - International Biometric Society, March 25th through March 28th, Atlanta, GA USA @Hyatt Regency Atlanta
+]
 
 ---
 class: rstudio-slide, left
 
-# Our Goals
+# Logistics
 
-.left-column[Make R more accessible to a wider audience by making it easier to:
-.large[- Learn
-- Integrate with enterprise systems
-- Operate in enterprise environments
+.left-column[
+.large[
+- Webinar will be roughly 45 minutes in length.
+- We don’t expect that you will have trouble with sound, but if you do, the best solution will be to log out and reconnect.
+- RStudio will answer questions via the chat panel during and after the talk.
+- Webinar is being recorded and will be posted within 48 hours - www.rstudio.com/resources/webinars/
+- Slides and demo code will be hosted here: https://github.com/rstudio/webinars
+
 ]]
 
 .right-column[![](https://stackoverflow.blog/wp-content/uploads/2017/10/plot_tags_time-1-675x675.png)]
@@ -76,97 +84,20 @@ class: rstudio-slide, left
 ---
 class: rstudio-slide, left 
 
-# Empowered Analysts
+# Lionel Henry
 
-![](images/Empowered_Analysts.png)
-
----
-class: rstudio-slide, left 
-
-# RStudio Connect Updates
-
-.left-column[
-- REST based APIs using plumber
-- Clustering and execution nodes (includes Postgres support)
-- Retain historical content for scheduled reports
-  - Security
-  - Kerberos support (run as authenticated shiny viewer)
-- Web sudo mode
-- Parameterized report editor
-- Source version roll forward/back
-- Shiny bookmarkable state 
-- Supporting Tag hierarchies
-- Content search
-]
-.right-column[![](images/Connect_Dashboard.png)]
-
----
-class: rstudio-slide, left 
-
-# Shiny
-.right-column[![](images/Shiny_Apps.png)]
+.pic-right[![](https://avatars3.githubusercontent.com/u/4465050?s=460&v=4)]
 .huge[
-- [Async](https://rstudio.github.io/promises/)
-- Shinytest
-- Shinyloadtest
+- Lionel is a software developer at RStudio. He studied political science and statistics, developed a passion for writing R packages, and now assists Hadley in creating a rich data analysis framework. 
+- Git: github.com/lionel-
 ]
 
 ---
-class: rstudio-slide, left 
 
-# RStudio Package Manager
-.right-column[![](images/Package_Mosaic.png)]
-.large[- Reliable and consistent offline access to CRAN packages
-- Share local packages in your repository
-- Automated CRAN syncs
-- Finding packages across repositories
-- Restrict access to packages
-- Browse packages information and dependencies
-- Early alpha
-]
+class: class: dark-gray, center
 
----
-class: rstudio-slide, left 
+# Presentation & Discussion 
 
-# RStudio Cloud
-.right-column[![](images/RStudio_Cloud.png)]
-.huge[- Platform to “Do, share, teach, and learn data science with R”
-- In early alpha
-- Demo]
-
----
-class: rstudio-slide, left
-
-# Multiple Learning Paths
-
-```{r, echo = FALSE}
-learn_path <- data.frame(
-  Learn = c("tidyverse.org", "shiny.rstudio.com", "Learnr tutorials", "rstudio.cloud", "rstudio::conf", "community.rstudio.com", "blogs"),
-  Integrate = c("sparklyr", "db.rstudio.com", "Deploy R based REST APIs", "Tensorflow ", "Keras", " ", " "),
-  Operate = c("RStudio Connect", "RStudio Server Pro", "Operationalizing Shiny", "AWS Marketplace", "RStudio Package Manager", "Google Cloud Launcher", " ")
-)
-
-kable(learn_path, "html") %>%
-kable_styling() %>%
-row_spec(0, bold = T, color = "white", background = "#4287c7")
-```
-
----
-class: rstudio-slide, left 
-
-# What's Next?
-
-- Separation of execution process from server in RSP and RSC
-  - Docker
-- Enhanced Python support in the IDE and R Markdown
-- Scheduled emailing of R Markdown side effects
-- PowerPoint output from R Markdown
-- Additional professional drivers
-- More work on Tensorflow, TF Estimators and Keras
-- Support for Tensorflow model serving in RStudio Connect
-- Azure Marketplace offering for RSP
-- rstudio.cloud beta
-- Professional Desktop
 
 ---
 class: rstudio-slide, left

@@ -72,6 +72,8 @@ highlight {
   background-size: cover;
 }
 
+.name { font-size: 300% 
+}
 .huge { font-size: 200% 
 }
 .large { font-size: 130% 
@@ -79,6 +81,16 @@ highlight {
 .small { font-size: 60% 
 }
 .tiny {font-size: 40% 
+}
+
+.dark-blue {
+  background-color: #4287c7;
+  color: #fff;
+  margin-right: 300px;
+}
+
+.dark-blue h2, .dark-blue h1 {
+  color: #fff;
 }
 
 .dark-green {

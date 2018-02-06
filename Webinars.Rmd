@@ -82,6 +82,21 @@ class: rstudio-slide, left
 .pic-right[![](https://raw.githubusercontent.com/carneybill/RStudio-Slides/master/images/GoToWebinar_panel.png)]
 
 ---
+class: class: dark-blue, middle
+
+our_speaker("
+
+.name[Lionel Henry]
+
+",
+
+title = "Software Engineer",
+
+company = "RStudio"
+
+)
+
+---
 class: rstudio-slide, left 
 
 # Lionel Henry

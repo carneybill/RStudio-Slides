@@ -7,7 +7,7 @@ resource_files:
 - images/RStudio_Cloud.png
 - images/Typical_Setup.png
 - images/Shiny_Apps.png
-subtitle: Dave Hurst, Tareef Kawaf, Nathan Stephens
+subtitle: 
 output:
   xaringan::moon_reader:
     css: rstudio.css
@@ -41,6 +41,22 @@ thm <- theme_bw() +
 theme_set(thm)
 ```
 
+class: class: dark-blue, middle
+
+Speaker("
+
+.name[Tareef Kawaf]
+
+",
+
+title = "President",
+
+
+company = "RStudio"
+
+)
+
+---
 class: class: dark-green, middle
 
 *The primary mission of RStudio is to build a sustainable open-source business that creates software for data science and statistical computing.* 

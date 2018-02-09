@@ -128,29 +128,29 @@ class: rstudio-slide, left
 class: rstudio-slide, left 
 
 # IDE
-.right-column[![](images/Version1.1.png)]
-- Integrated Development Environment for R (i.e. like Eclipse or Visual Studio but for R)
-- Runs on the Desktop (Windows, OSX, Linux) or over the Web as a server to enable shared resources and collaboration
-- Released in 2012 and now the most popular front-end for R users with thousands of downloads per day
-- Data viewer -- support large datasets, filtering, searching, sorting
-- Code completion 
-- Code diagnostics
-- Customizable code snippets
-- Improved tools for Rcpp
-- Multiple cursors
-- Tab re-ordering
-- New themes
-- Enhanced Vim mode
-- Notebooks
-- Add-ins
+.left-column[
+Open-Source
+- Integrated Development Environment for R (i.e. like Eclipse or Visual Studio but for R). Runs on the Desktop (Windows, OSX, Linux) or over the Web as a server to enable shared resources and collaboration
+  - Data viewer -- support large datasets, filtering, searching, sorting
+  - Code completion & Code diagnostics
+  - Customizable code snippets
+  - Improved tools for Rcpp
+  - Multiple cursors
+  - Tab re-ordering & New themes
+  - Enhanced Vim mode
+  - Notebooks
+  - Add-ins
+]
+
+.right-column[Pro
 - Session Management
 - Project Sharing
 - Collaborative Editing
-
-Pro
 - Support for floating licenses
 - Improved session management
 - Updated tools for administrators
+]
+![](images/Version1.1.png)
 
 ---
 class: rstudio-slide, left 

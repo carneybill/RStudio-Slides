@@ -117,17 +117,18 @@ highlight {
 /* Two-column layout */
 .left-column {
   color: #777;
-  width: 60%;
-  height: 92%;
+  width: 45%;
+  height: 80%;
   float: left;
 }
 .left-column h2:last-of-type, .left-column h3:last-child {
   color: #000;
 }
 .right-column {
-  width: 40%;
+  width: 45%;
+  height: 80%;
   float: right;
-  padding-top: 1em;
+
 }
 .pic-right {
   float: right;

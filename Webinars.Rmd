@@ -1,5 +1,5 @@
 ---
-title: "Webinar Name"
+title: "Best Practices for Working with Databases"
 resource_files:
 - images/Connect_Dashboard.png
 - images/Empowered_Analysts.png
@@ -7,7 +7,7 @@ resource_files:
 - images/RStudio_Cloud.png
 - images/Typical_Setup.png
 - images/Shiny_Apps.png
-subtitle: Presented by
+subtitle: Presented by Edgar Ruiz
 output:
   xaringan::moon_reader:
     css: rstudio.css
@@ -86,11 +86,11 @@ class: class: dark-blue, middle
 
 our_speaker("
 
-.name[Lionel Henry]
+.name[Edgar Ruiz]
 
 ",
 
-title = "Software Engineer",
+title = "Solutions Engineer",
 
 company = "RStudio"
 
@@ -99,12 +99,12 @@ company = "RStudio"
 ---
 class: rstudio-slide, left 
 
-# Lionel Henry
+# Edgar Ruiz
 
-.pic-right[![](https://avatars3.githubusercontent.com/u/4465050?s=460&v=4)]
+.pic-right[![](https://avatars0.githubusercontent.com/u/7875923?s=400&v=4)]
 .huge[
-- Lionel is a software developer at RStudio. He studied political science and statistics, developed a passion for writing R packages, and now assists Hadley in creating a rich data analysis framework. 
-- Git: github.com/lionel-
+- Edgar has a background in deploying enterprise reporting and Business Intelligence solutions. He has posted multiple articles and blog posts sharing analytics insights and server infrastructure for Data Science. He lives with his family near Biloxi, MS
+- https://github.com/edgararuiz
 ]
 
 ---

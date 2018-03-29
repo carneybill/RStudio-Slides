@@ -1,7 +1,7 @@
 <!DOCTYPE html>
 <html>
   <head>
-    <title>Best Practices for Working with Databases</title>
+    <title>Thinking inside the box: you can do that inside a data frame?!</title>
     <meta charset="utf-8">
     <link rel="stylesheet" href="rstudio.css" type="text/css" />
   </head>
@@ -9,8 +9,8 @@
     <textarea id="source">
 class: center, middle, inverse, title-slide
 
-# Best Practices for Working with Databases
-## Presented by Edgar Ruiz
+# Thinking inside the box: you can do that inside a data frame?!
+## Presented by Jenny Bryan
 
 ---
 
@@ -32,10 +32,18 @@ class: rstudio-slide, left
 # Lets connect in person!
 
 .large[
-- Analytics &amp; Data Summit, March 20th through March 22nd, Redwood Shores, CA USA @Oracle Conference Center
-- Big Data World, March 21st through March 22nd, London, UK @Oracle ExCel London
-- International Biometric Society, March 25th through March 28th, Atlanta, GA USA @Hyatt Regency Atlanta
-- Building tidy tools with @hadleywickham May 17th &amp; 18th@ San Francisco https://www.rstudio.com/workshops/extending-the-tidyverse/]
+- Building tidy tools with @hadleywickham May 17th &amp; 18th - San Francisco, CA https://www.rstudio.com/workshops/extending-the-tidyverse/
+- Pharma SUG - April 29th through May 2nd — Seattle, WA 
+- ODSC East - May 1st through the 4th — Boston, MA 
+- Symposium on Data Science and Statistics - May 16th through the 19th — Reston, VA 
+- Big Data &amp; Analytics in Healthcare Summit - May 22nd &amp; 23rd — Philadelphia, PA
+- Strata + Hadoop - May 22nd &amp; 24th — London, UK
+- R/Finance - June 1st &amp; 2nd - Chicago, IL
+- Spark &amp; AI Summit West - June 4th through the 6th - San Francisco, CA
+- !useR - July 9th through the 13th - Brisbane, AUS
+- R/Insurance - July 16th -  London, UK
+- JSM - July 28th through August 2nd - Vancouver, BC, Canada
+]
 
 ---
 class: rstudio-slide, left
@@ -59,7 +67,7 @@ class: class: dark-blue, middle
 
 our_speaker("
 
-.name[Edgar Ruiz]
+.name[Jenny Bryan]
 
 ",
 
@@ -72,12 +80,14 @@ company = "RStudio"
 ---
 class: rstudio-slide, left 
 
-# Edgar Ruiz
+# Jenny Bryan
 
-.pic-right[![](https://avatars0.githubusercontent.com/u/7875923?s=400&amp;v=4)]
-.huge[
-- Edgar has a background in deploying enterprise reporting and Business Intelligence solutions. He has posted multiple articles and blog posts sharing analytics insights and server infrastructure for Data Science. He lives with his family near Biloxi, MS
-- https://github.com/edgararuiz
+.pic-right[![](https://avatars1.githubusercontent.com/u/599454?s=400&amp;v=4)]
+.large[
+- Jenny is a recovering biostatistician who takes special delight in eliminating the small agonies of data analysis. She’s part of Hadley’s team, working on R packages and integrating them into fluid workflows. She’s been working in R/S for over 20 years, serves in the leadership of rOpenSci and Forwards, and is an Ordinary Member of the R Foundation. Jenny is an Associate Professor of Statistics (on leave) at the University of British Columbia, where she created the course STAT 545.
+- http://stat545.com/
+- https://twitter.com/JennyBryan
+- https://github.com/jennybc
 ]
 
 ---
@@ -128,15 +138,8 @@ class: rstudio-slide, left
 "highlightStyle": "github",
 "ratio": "16:9"
 });
-if (window.HTMLWidgets) slideshow.on('afterShowSlide', function (slide) {
-  window.dispatchEvent(new Event('resize'));
-});
-(function() {
-  var d = document, s = d.createElement("style"), r = d.querySelector(".remark-slide-scaler");
-  if (!r) return;
-  s.type = "text/css"; s.innerHTML = "@page {size: " + r.style.width + " " + r.style.height +"; }";
-  d.head.appendChild(s);
-})();</script>
+if (window.HTMLWidgets) slideshow.on('afterShowSlide', function (slide) {window.dispatchEvent(new Event('resize'));});
+(function() {var d = document, s = d.createElement("style"), r = d.querySelector(".remark-slide-scaler"); if (!r) return; s.type = "text/css"; s.innerHTML = "@page {size: " + r.style.width + " " + r.style.height +"; }"; d.head.appendChild(s);})();</script>
 
 <script type="text/x-mathjax-config">
 MathJax.Hub.Config({

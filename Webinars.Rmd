@@ -1,5 +1,5 @@
 ---
-title: "Thinking inside the box: you can do that inside a data frame?!"
+title: "R and TensorFlow"
 resource_files:
 - images/Connect_Dashboard.png
 - images/Empowered_Analysts.png
@@ -7,7 +7,7 @@ resource_files:
 - images/RStudio_Cloud.png
 - images/Typical_Setup.png
 - images/Shiny_Apps.png
-subtitle: Presented by Jenny Bryan
+subtitle: Presented by Andrie de Vries
 output:
   xaringan::moon_reader:
     css: rstudio.css
@@ -56,8 +56,10 @@ class: rstudio-slide, left
 
 # Lets connect in person!
 
-.large[
+.med[
 - Building tidy tools with @hadleywickham May 17th & 18th - San Francisco, CA https://www.rstudio.com/workshops/extending-the-tidyverse/
+- Applied Machine Learning Workshop with @maxkuhn August 15th & 16th - Washington D.C. https://www.rstudio.com/workshops/applied-machine-learning/]
+.med[
 - Pharma SUG - April 29th through May 2nd — Seattle, WA 
 - ODSC East - May 1st through the 4th — Boston, MA 
 - Symposium on Data Science and Statistics - May 16th through the 19th — Reston, VA 
@@ -92,7 +94,7 @@ class: class: dark-blue, middle
 
 our_speaker("
 
-.name[Jenny Bryan]
+.name[Andrie de Vries]
 
 ",
 
@@ -105,15 +107,13 @@ company = "RStudio"
 ---
 class: rstudio-slide, left 
 
-# Jenny Bryan
+# Andrie de Vries
 
-.pic-right[![](https://avatars1.githubusercontent.com/u/599454?s=400&v=4)]
-.large[
-- Jenny is a recovering biostatistician who takes special delight in eliminating the small agonies of data analysis. She’s part of Hadley’s team, working on R packages and integrating them into fluid workflows. She’s been working in R/S for over 20 years, serves in the leadership of rOpenSci and Forwards, and is an Ordinary Member of the R Foundation. Jenny is an Associate Professor of Statistics (on leave) at the University of British Columbia, where she created the course STAT 545.
-- http://stat545.com/
-- https://twitter.com/JennyBryan
-- https://github.com/jennybc
-]
+.pic-right[![](https://media.licdn.com/dms/image/C4E03AQFEBL35ha0ufw/profile-displayphoto-shrink_800_800/0?e=1529845200&v=beta&t=rTplT5XUZ7c_pjMqYY0KZcwEg65pazzTl84Ar8pr3A8)![](https://prodimage.images-bn.com/pimages/9781119055808_p0_v3_s550x406.jpg)]
+
+Andrie is a regular contributor to StackOverflow and co-author of “R for Dummies”. He contributed several R packages to CRAN, including miniCRAN, checkpoint, ggdendro, sss, and surveydata, and regularly speaks at industry events and R user groups. He is a qualified yoga teacher, and continues to study yoga therapy annually in Chennai, India.
+
+
 
 ---
 

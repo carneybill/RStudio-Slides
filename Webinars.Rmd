@@ -1,5 +1,5 @@
 ---
-title: "R Hub"
+title: "Usando R para la Ciencia de Datos"
 resource_files:
 - images/Connect_Dashboard.png
 - images/Empowered_Analysts.png
@@ -7,7 +7,7 @@ resource_files:
 - images/RStudio_Cloud.png
 - images/Typical_Setup.png
 - images/Shiny_Apps.png
-subtitle: Presented by Gábor Csárdi
+subtitle: Presented by Edgar Ruiz
 output:
   xaringan::moon_reader:
     css: rstudio.css
@@ -56,18 +56,15 @@ class: rstudio-slide, left
 
 # Lets connect in person!
 
-.med[
-- Building tidy tools with @hadleywickham May 17th & 18th - San Francisco, CA https://www.rstudio.com/workshops/extending-the-tidyverse/
-- Applied Machine Learning Workshop with @maxkuhn August 15th & 16th - Washington D.C. https://www.rstudio.com/workshops/applied-machine-learning/]
-.med[
-- Symposium on Data Science and Statistics - May 16th through the 19th — Reston, VA 
-- Big Data & Analytics in Healthcare Summit - May 22nd & 23rd — Philadelphia, PA
-- Strata + Hadoop - May 22nd & 24th — London, UK
+.large[
 - R/Finance - June 1st & 2nd - Chicago, IL
 - Spark & AI Summit West - June 4th through the 6th - San Francisco, CA
 - !useR - July 9th through the 13th - Brisbane, AUS
 - R/Insurance - July 16th -  London, UK
 - JSM - July 28th through August 2nd - Vancouver, BC, Canada
+- R/Pharma - August 15th & 16th - Harvard University, Cambridge
+- Applied Machine Learning Workshop with @maxkuhn August 23rd & 24th - Washington D.C. https://www.rstudio.com/workshops/applied-machine-learning/
+- R in Medicine Conference - New Haven CT
 ]
 
 ---
@@ -77,6 +74,7 @@ class: rstudio-slide, left
 
 .left-column[
 .large[
+- This is our very 1st webinar in Spanish!
 - Webinar will be roughly 45 minutes in length.
 - We don’t expect that you will have trouble with sound, but if you do, the best solution will be to log out and reconnect.
 - RStudio will answer questions via the chat panel during and after the talk.
@@ -92,11 +90,11 @@ class: class: dark-blue, middle
 
 our_speaker("
 
-.name[Gábor Csárdi]
+.name[Edgar Ruiz]
 
 ",
 
-title = "Software Engineer",
+title = "Solutions Engineer",
 
 company = "RStudio"
 
@@ -105,14 +103,14 @@ company = "RStudio"
 ---
 class: rstudio-slide, left 
 
-# Gábor Csárdi
-
-.pic-right[![](https://avatars2.githubusercontent.com/u/660288?s=400&v=4)]
-
-Gábor is a software engineer at RStudio, working in Hadley’s team on R infrastructure packages
-
-@GaborCsardi
-https://github.com/gaborcsardi
+# Edgar Ruiz
+.pic-right[![](https://avatars2.githubusercontent.com/u/7875923?s=400&v=4)]
+.med[
+Edgar Ruiz is a solutions engineer at RStudio with a background in deploying enterprise reporting and business intelligence solutions. He is the author of multiple articles and blog posts sharing analytics insights and server infrastructure for data science. 
+- https://twitter.com/theotheredgar
+- https://github.com/edgararuiz
+- https://www.linkedin.com/in/edgararuiz/
+- https://www.edgarsdatalab.com/]]
 
 ---
 

@@ -4,4 +4,4 @@
 - Includes a custom CSS file (rstudio.css) that defaults to the official colors and fonts. Edgar put together the first version of this CSS file a few months ago from Robby's repo: https://github.com/rstudio/rs-styles
 - Included examples from different presentations
 
-Install xaringan, kableExtra 
+Install - xaringan 6.0, kableExtra, ggplot2, dplyr, knitr, rmarkdown

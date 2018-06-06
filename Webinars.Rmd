@@ -1,5 +1,5 @@
 ---
-title: "Usando R para la Ciencia de Datos"
+title: "Async Programming in R and Shiny "
 resource_files:
 - images/Connect_Dashboard.png
 - images/Empowered_Analysts.png
@@ -7,7 +7,7 @@ resource_files:
 - images/RStudio_Cloud.png
 - images/Typical_Setup.png
 - images/Shiny_Apps.png
-subtitle: Presented by Edgar Ruiz
+subtitle: Presented by Joe Cheng
 output:
   xaringan::moon_reader:
     css: rstudio.css
@@ -57,8 +57,6 @@ class: rstudio-slide, left
 # Lets connect in person!
 
 .large[
-- R/Finance - June 1st & 2nd - Chicago, IL
-- Spark & AI Summit West - June 4th through the 6th - San Francisco, CA
 - !useR - July 9th through the 13th - Brisbane, AUS
 - R/Insurance - July 16th -  London, UK
 - JSM - July 28th through August 2nd - Vancouver, BC, Canada
@@ -74,8 +72,7 @@ class: rstudio-slide, left
 
 .left-column[
 .large[
-- This is our very 1st webinar in Spanish!
-- Webinar will be roughly 45 minutes in length.
+- The webinar will be roughly 45 minutes in length.
 - We don’t expect that you will have trouble with sound, but if you do, the best solution will be to log out and reconnect.
 - RStudio will answer questions via the chat panel during and after the talk.
 - Webinar is being recorded and will be posted within 48 hours - www.rstudio.com/resources/webinars/
@@ -90,11 +87,11 @@ class: class: dark-blue, middle
 
 our_speaker("
 
-.name[Edgar Ruiz]
+.name[Joe Cheng]
 
 ",
 
-title = "Solutions Engineer",
+title = "CTO & Software Engineer",
 
 company = "RStudio"
 
@@ -103,14 +100,14 @@ company = "RStudio"
 ---
 class: rstudio-slide, left 
 
-# Edgar Ruiz
-.pic-right[![](https://avatars2.githubusercontent.com/u/7875923?s=400&v=4)]
+# Joe Cheng
+.pic-right[![](https://pbs.twimg.com/profile_images/897542254692376576/Hb-P8iEy_400x400.jpg)]
 .med[
-Edgar Ruiz is a solutions engineer at RStudio with a background in deploying enterprise reporting and business intelligence solutions. He is the author of multiple articles and blog posts sharing analytics insights and server infrastructure for data science. 
-- https://twitter.com/theotheredgar
-- https://github.com/edgararuiz
-- https://www.linkedin.com/in/edgararuiz/
-- https://www.edgarsdatalab.com/]]
+Joe is CTO of RStudio and the creator of Shiny, a reactive web framework for R. He has worked at a number of startups including Allaire, Upromise, and Onfolio. He also worked on Windows Live Writer.
+- https://twitter.com/jcheng
+- https://github.com/jcheng5
+- https://www.linkedin.com/in/jcheng/
+- https://jcheng.wordpress.com/]
 
 ---
 

@@ -7,7 +7,7 @@ resource_files:
 - images/RStudio_Cloud.png
 - images/Typical_Setup.png
 - images/Shiny_Apps.png
-subtitle: Presented by Joe Cheng
+subtitle: Presented by Amanda Gadrow
 output:
   xaringan::moon_reader:
     css: rstudio.css

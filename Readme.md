@@ -5,3 +5,6 @@
 - Included examples from different presentations
 
 Install - xaringan 6.0, kableExtra, ggplot2, dplyr, knitr, rmarkdown
+Change the text and knit the doc.
+Click the "View in Browser"
+Hit "F" to go full screen - Arrows increment the slides

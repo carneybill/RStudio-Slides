@@ -142,9 +142,11 @@ class: rstudio-slide, left
 - Developer Blog - [rstd.io/dev-blog](http://rstd.io/dev-blog)
 - R Views Blog - [rstd.io/rviews-blog](http://rstd.io/rviews-blog)
 - TensorFlow Blog - [rstd.io/tf-blog](http://rstd.io/tf-blog)
+- tidyverse Blog - [rstd.io/tidy-blog](http://rstd.io/tidy-blog)
 - Twitter - [rstd.io/twitter](http://rstd.io/twitter)
 - GitHub - [rstd.io/github](http://rstd.io/github)
 - LinkedIn - [rstd.io/linkedin](http://rstd.io/linkedin) 
 - YouTube - [rstd.io/youtube](http://rstd.io/youtube)
 - Facebook - [rstd.io/facebook](http://rstd.io/facebook)
+]
 ]

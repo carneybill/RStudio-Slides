@@ -149,4 +149,3 @@ class: rstudio-slide, left
 - YouTube - [rstd.io/youtube](http://rstd.io/youtube)
 - Facebook - [rstd.io/facebook](http://rstd.io/facebook)
 ]
-]

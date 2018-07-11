@@ -1,5 +1,5 @@
 ---
-title: "Debugging Techniques in RStudio"
+title: "Professional R Tooling and Integration"
 resource_files:
 - images/Connect_Dashboard.png
 - images/Empowered_Analysts.png
@@ -7,7 +7,7 @@ resource_files:
 - images/RStudio_Cloud.png
 - images/Typical_Setup.png
 - images/Shiny_Apps.png
-subtitle: Presented by Amanda Gadrow
+subtitle: Presented by Nathan Stephens
 output:
   xaringan::moon_reader:
     css: rstudio.css
@@ -57,7 +57,6 @@ class: rstudio-slide, left
 # Lets connect in person!
 
 .large[
-- !useR - July 9th through the 13th - Brisbane, AUS
 - R/Insurance - July 16th -  London, UK
 - JSM - July 28th through August 2nd - Vancouver, BC, Canada
 - R/Pharma - August 15th & 16th - Harvard University, Cambridge
@@ -87,11 +86,11 @@ class: class: dark-blue, middle
 
 our_speaker("
 
-.name[Amanda Gadrow]
+.name[Nathan Stephens]
 
 ",
 
-title = "Software Engineer",
+title = "Director of Solutions Engineering",
 
 company = "RStudio"
 
@@ -100,13 +99,12 @@ company = "RStudio"
 ---
 class: rstudio-slide, left 
 
-# Amanda Gadrow
-.pic-right[![](https://pbs.twimg.com/profile_images/869892349954056192/dKhb_UZU_400x400.jpg)]
+# Nathan Stephens
+.pic-right[![](https://avatars1.githubusercontent.com/u/7519295?s=460&v=4)]
 .med[
-Amanda has solved problems at small Boston-based startups for many years. She has experience building high-quality software in various roles, including customer support, test strategy and automation, and product management.
-- https://www.linkedin.com/in/amandagadrow/
-- https://twitter.com/ajmcoqui
-- https://github.com/ajmcoqui]
+Nathan has a background in analytic solutions and consulting. He has experience building data science teams, architecting analytic infrastructure, and delivering innovative data products. He is a long time user of R.]
+- https://www.linkedin.com/in/nwstephens/
+- https://github.com/nwstephens
 
 ---
 

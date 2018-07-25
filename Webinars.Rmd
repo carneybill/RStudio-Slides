@@ -84,7 +84,7 @@ class: rstudio-slide, left
 ]]
 
 .pic-right[![](https://raw.githubusercontent.com/carneybill/RStudio-Slides/master/images/GoToWebinar_panel.png)]
-z
+
 ---
 class: class: dark-blue, middle
 

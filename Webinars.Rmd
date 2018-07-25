@@ -65,7 +65,7 @@ class: rstudio-slide, left
 - 47 JAIIO - September 3rd through the 7th - Buenos Aires, Argentina
 - EARL London - September 11th through the 15th - London, UK
 - Strata Bug Data - September 11th through the 13th - New York, NY
-- In Person Workshop with @JennyBryan October 4th & 5th, Seattle, WA   - Registration opens soon
+- What They Forgot to Teach You About R aka Getting S*%! Done in R Workshop with @JennyBryan October 4th & 5th, Seattle, WA   - Registration opens soon
 ]
 
 ---

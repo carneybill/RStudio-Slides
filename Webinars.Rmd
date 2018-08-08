@@ -131,6 +131,7 @@ class: rstudio-slide, left
 - Shiny Server Pro: https://www.rstudio.com/products/shiny-server-pro/evaluation/
 - RStudio Connect: https://www.rstudio.com/products/connect/evaluation/
 - RStudio Drivers: https://www.rstudio.com/products/drivers/drivers-evaluation/
+- RStudio Package Manager: https://www.rstudio.com/products/package-manager/eval/
 
 ---
 class: rstudio-slide, left

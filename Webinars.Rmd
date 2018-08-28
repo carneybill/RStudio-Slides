@@ -57,10 +57,14 @@ class: rstudio-slide, left
 # Lets connect in person!
 
 .large[
-- 47 JAIIO - September 3rd through the 7th - Buenos Aires, Argentina
+- Latin R - September 3rd through the 7th - Buenos Aires, Argentina
+- R in Medicine - September 7th & 8th - New Haven, CT
 - EARL London - September 11th through the 15th - London, UK
-- Strata Bug Data - September 11th through the 13th - New York, NY
+- Strata New York - September 11th through the 13th - New York, NY
+- RavenPack NYC - September 12th - New York, NY
 - What They Forgot to Teach You About R aka Getting S*%! Done in R Workshop with @JennyBryan October 4th & 5th, Seattle, WA - https://www.rstudio.com/workshops/what-they-forgot-to-teach-you-about-r/
+- ACoP9 - October 7th through the 10th - Coronado, CA
+- Gartner Symposium/ITxpo Orlando - October 14th through the 18th - Orlando, FL
 - rstudio::conf 2019 - Jan. 15th - 18th, Austin, TX - **early bird registration ends August 31st.**
 https://www.rstudio.com/conference/
 ]

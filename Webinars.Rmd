@@ -1,5 +1,5 @@
 ---
-title: "How to Work with List Columns"
+title: "Load Testing Shiny"
 resource_files:
 - images/Connect_Dashboard.png
 - images/Empowered_Analysts.png
@@ -7,7 +7,7 @@ resource_files:
 - images/RStudio_Cloud.png
 - images/Typical_Setup.png
 - images/Shiny_Apps.png
-subtitle: Garrett Grolemund
+subtitle: Alan Dipert
 output:
   xaringan::moon_reader:
     css: rstudio.css
@@ -57,14 +57,12 @@ class: rstudio-slide, left
 # Lets connect in person!
 
 .large[
-- TDWI - August 7th & 8th - Anaheim, CA
-- R/Pharma - August 15th & 16th - Harvard University, Cambridge
-- Applied Machine Learning Workshop with @maxkuhn August 23rd & 24th - Washington D.C. https://www.rstudio.com/workshops/applied-machine-learning/
-- R in Medicine Conference - New Haven CT
 - 47 JAIIO - September 3rd through the 7th - Buenos Aires, Argentina
 - EARL London - September 11th through the 15th - London, UK
 - Strata Bug Data - September 11th through the 13th - New York, NY
 - What They Forgot to Teach You About R aka Getting S*%! Done in R Workshop with @JennyBryan October 4th & 5th, Seattle, WA - https://www.rstudio.com/workshops/what-they-forgot-to-teach-you-about-r/
+- rstudio::conf 2019 - Jan. 15th - 18th, Austin, TX - **early bird registration ends August 31st.**
+https://www.rstudio.com/conference/
 ]
 
 ---
@@ -89,24 +87,26 @@ class: class: dark-blue, middle
 
 our_speaker("
 
-.name[Garrett Grolemund]
+.name[Alan Dipert]
 
 ",
 
-title = "Data Scientist and Master Instructor",
+title = "Software Engineer",
 
 company = "RStudio")
 
 ---
 class: rstudio-slide, left 
 
-# Garrett Grolemund
-.pic-right[![](https://avatars1.githubusercontent.com/u/85014?s=460&v=4)]
+# Alan Dipert
+.pic-right[![](https://avatars1.githubusercontent.com/u/26024?s=400&v=4)]
 .small[
-Garrett is the Editor and Chief of the Shiny Development Center,  He wrote the popular lubridate package and is the author of Hands On Programming with R and R for Data Science, from O’Reilly Media. He holds a PhD in Statistics and specializes in Data Visualization.]
-- https://www.oreilly.com/pub/au/5570
-- https://twitter.com/statGarrett 
-- https://github.com/garrettgman
+Alan is a software engineer on the Shiny team. In the past, he’s helped build web applications, reporting pipelines, and many things between. When he’s not working, Alan likes to spend his time reading or being with his family.
+]
+- https://twitter.com/alandipert
+- https://github.com/alandipert
+- https://www.linkedin.com/in/alandipert/
+- https://tailrecursion.com/~alan/index.cgi/index.html
 
 ---
 

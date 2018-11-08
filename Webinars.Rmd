@@ -1,5 +1,5 @@
 ---
-title: "Load Testing Shiny"
+title: "Reproducible Finance with R"
 resource_files:
 - images/Connect_Dashboard.png
 - images/Empowered_Analysts.png
@@ -7,7 +7,7 @@ resource_files:
 - images/RStudio_Cloud.png
 - images/Typical_Setup.png
 - images/Shiny_Apps.png
-subtitle: Alan Dipert
+subtitle: Jonathan Regenstein
 output:
   xaringan::moon_reader:
     css: rstudio.css
@@ -57,16 +57,19 @@ class: rstudio-slide, left
 # Lets connect in person!
 
 .large[
-- EARL London - September 11th through the 15th - London, UK
-- Strata New York - September 11th through the 13th - New York, NY
-- RavenPack NYC - September 12th - New York, NY
-- What They Forgot to Teach You About R Workshop with @JennyBryan October 4th & 5th, Seattle, WA - https://www.rstudio.com/workshops/what-they-forgot-to-teach-you-about-r/
-- ACoP9 - October 7th through the 10th - Coronado, CA
-- Gartner Symposium/ITxpo Orlando - October 14th through the 18th - Orlando, FL
-- Women in Statistics and Data Science Conference - October 18th through the 20th - Cincinnati, OH
-- Teradata Partners - October 14th through the 18th - Las Vegas, NV
-- rstudio::conf 2019 - Jan. 15th - 18th, Austin, TX - **early bird registration ends August 31st.**
+- DC R Conference - November 8th and 9th - Washington, DC
+- EARL Roadshow -  Seattle Nov 7th, Houston Nov 9th, Boston Nov 13th 
+- Big Data London - November 13th and 14th - London, England
+- Budapest BI - November 12th to the 14th - Budapest HUNGARY
+- Big Data LDN November 13th and 14th - London UK
+- Data Science Con November 28th and 30th - Atlanta, GA
+- UCD Computational Biology Symposium 2018 - Nov 29th & 30th - Dublin IRE
+- rstudio::conf 2019 - Jan. 15th - 18th, Austin, TX - 
 https://www.rstudio.com/conference/
+  - 13 individual workshops
+  - General conference
+  - Nightime event at Austin City Limits
+  
 ]
 
 ---
@@ -91,26 +94,22 @@ class: class: dark-blue, middle
 
 our_speaker("
 
-.name[Alan Dipert]
-
+.name[Jonathan Regenstein]
 ",
 
-title = "Software Engineer",
+title = "Director of Financial Services Practice / Author",
 
 company = "RStudio")
 
 ---
 class: rstudio-slide, left 
 
-# Alan Dipert
-.pic-right[![](https://avatars1.githubusercontent.com/u/26024?s=400&v=4)]
+# Jonathan Regenstein
+.pic-right[![](https://media.licdn.com/dms/image/C5603AQFcVd-kNScX4g/profile-displayphoto-shrink_800_800/0?e=1547078400&v=beta&t=JXEiYr5UQuJt0P8zwHAFJeDzAm-JaSF6LwcgQs6qihk)]
+.pic-right[![](https://images-na.ssl-images-amazon.com/images/I/512pp2uV9fL._SX330_BO1,204,203,200_.jpg)]
+
 .small[
-Alan is a software engineer on the Shiny team. In the past, he’s helped build web applications, reporting pipelines, and many things between. When he’s not working, Alan likes to spend his time reading or being with his family.
-]
-- https://twitter.com/alandipert
-- https://github.com/alandipert
-- https://www.linkedin.com/in/alandipert/
-- https://tailrecursion.com/~alan/index.cgi/index.html
+Jonathan is the Director of Financial Services Practice at RStudio. Prior to RStudio, he studied International Relations at Harvard, worked in finance at JP Morgan and then did graduate work in Political Economy at Emory University.]
 
 ---
 
